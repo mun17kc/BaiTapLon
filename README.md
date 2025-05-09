@@ -30,23 +30,23 @@
 
 ## Cài Đặt và Chạy Script
 
- ## Cài đặt các thư viện Python:
+ ###  Cài đặt các thư viện Python:
    Trước khi chạy script, bạn cần cài đặt các thư viện yêu cầu. Chạy lệnh sau trong terminal hoặc command prompt để cài đặt:
 
    pip install -r requirements.txt
 
-## Tải và cài đặt ChromeDriver:
+### Tải và cài đặt ChromeDriver:
 
 Tải phiên bản ChromeDriver tương thích với trình duyệt Chrome của bạn.
 
 Đảm bảo rằng ChromeDriver có thể được truy cập từ bất kỳ thư mục nào trong hệ thống của bạn (có thể thêm đường dẫn vào biến môi trường PATH).
 
-## Chạy Script:
+### Chạy Script:
 
 Sau khi cài đặt các thư viện và thiết lập ChromeDriver, bạn có thể chạy script bằng cách sử dụng lệnh sau:
 python script_name.py ( ví dụ như bài tôi python main.py)
 
-## Lên Lịch Tự Động:
+### Lên Lịch Tự Động:
 
 Script này đã được lên lịch tự động chạy vào lúc 6:00 sáng mỗi ngày nhờ vào thư viện schedule.
 
